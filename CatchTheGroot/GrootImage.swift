@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct GrootImage: View {
-    let scWidth = UIScreen.main.bounds.width
-    let scHeigth = UIScreen.main.bounds.height
+    let grootWidth = UIScreen.main.bounds.width * 0.3
+    let grootHeigth = UIScreen.main.bounds.height * 0.2
+    
     var body: some View {
         Image("groot")
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .frame(width: scWidth * 0.3, height: scHeigth * 0.2, alignment: .center)
+            .frame(width: grootWidth, height: grootHeigth, alignment: .center)
     }
 }
 

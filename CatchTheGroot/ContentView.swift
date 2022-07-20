@@ -10,7 +10,18 @@ import SwiftUI
 struct ContentView: View {
     @State var score = 0
     @State var time = 10.0
+    @State var grootX = 100
+    @State var grootY = 200
+    
+    var timer: Timer{
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { time in
+            grootX += grootX
+            grootY += grootY
+        }
+    }
+    
     var body: some View {
+         
         VStack{
             HStack{
                 Text("Catch The Groot")
@@ -33,6 +44,11 @@ struct ContentView: View {
             }.padding(.bottom)
             
             GrootImage()
+                .position(x: CGFloat(grootX), y: CGFloat(grootY))
+                .onAppear(){
+               _ = self.timer
+            }
+            
             Spacer()
             
         }
