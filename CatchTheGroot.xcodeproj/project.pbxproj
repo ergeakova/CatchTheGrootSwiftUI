@@ -12,6 +12,7 @@
 		C00C9B7028885F58001B6917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00C9B6F28885F58001B6917 /* Assets.xcassets */; };
 		C00C9B7328885F58001B6917 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00C9B7228885F58001B6917 /* Preview Assets.xcassets */; };
 		C00C9B7A28886599001B6917 /* GrootImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C9B7928886599001B6917 /* GrootImage.swift */; };
+		C057832C28887C8400783F98 /* Groot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C057832B28887C8400783F98 /* Groot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C00C9B6F28885F58001B6917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C00C9B7228885F58001B6917 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C00C9B7928886599001B6917 /* GrootImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrootImage.swift; sourceTree = "<group>"; };
+		C057832B28887C8400783F98 /* Groot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C00C9B7928886599001B6917 /* GrootImage.swift */,
 				C00C9B6F28885F58001B6917 /* Assets.xcassets */,
 				C00C9B7128885F58001B6917 /* Preview Content */,
+				C057832B28887C8400783F98 /* Groot.swift */,
 			);
 			path = CatchTheGroot;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C00C9B6E28885F53001B6917 /* ContentView.swift in Sources */,
+				C057832C28887C8400783F98 /* Groot.swift in Sources */,
 				C00C9B6C28885F53001B6917 /* CatchTheGrootApp.swift in Sources */,
 				C00C9B7A28886599001B6917 /* GrootImage.swift in Sources */,
 			);

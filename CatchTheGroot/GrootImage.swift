@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct GrootImage: View {
-    let grootWidth = UIScreen.main.bounds.width * 0.3
-    let grootHeigth = UIScreen.main.bounds.height * 0.2
+    let groot: Groot
     
     var body: some View {
         Image("groot")
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .frame(width: grootWidth, height: grootHeigth, alignment: .center)
+            .frame(width: groot.grootWidth, height: groot.grootHeigth, alignment: .center)
+            .padding()
     }
 }
 
 struct GrootImage_Previews: PreviewProvider {
     static var previews: some View {
-        GrootImage()
+        GrootImage(groot: Groot())
     }
 }
